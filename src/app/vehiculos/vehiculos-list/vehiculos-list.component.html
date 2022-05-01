@@ -12,7 +12,7 @@
         </div>
         <div class="col-12">
             <table class="table">
-                <thead class="table-dark">
+                <thead class="table-dark head-table">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Marca</th>
@@ -21,7 +21,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let item of list">
+                    <tr *ngFor="let item of list" class="item-row">
                         <th scope="row">{{item.id}}</th>
                         <td>{{item.marca}}</td>
                         <td>{{item.linea}}</td>
